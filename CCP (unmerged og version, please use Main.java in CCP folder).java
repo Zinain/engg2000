@@ -13,6 +13,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class CCP extends Thread {
+
     public static void main(String[] args) {
         Thread thread1 = new Thread(() -> startUpMCP("address", 1234));
 
@@ -66,12 +67,16 @@ public class CCP extends Thread {
             e.printStackTrace();
         }
     }
-    public static void interpret(){
+
+    public static void interpret() {
     }
+
     public static void passStatusBR(){
     }
+
     public static void passStatusMCP(){
     }
+
     public static void bladeHeartBeat(Socket clientSocket){
         int HEARTBEAT_TIMEOUT = 5000; // 5 seconds
 
@@ -101,8 +106,10 @@ public class CCP extends Thread {
             e.printStackTrace();
         }
     }
+
     public static void reconnect(){
     }
+
     public static void emergencyStop(){
     }
 }

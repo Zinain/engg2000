@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "json-simple-1.1.1.jar",
+        "CCP/lib/json-simple-1.1.1.jar",
+        "CCP/lib/json-20240303.jar"
+    ]
+}
